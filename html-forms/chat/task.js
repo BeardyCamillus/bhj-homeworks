@@ -1,7 +1,7 @@
 const chatWidget = document.querySelector('.chat-widget');
 const messages = document.getElementById('chat-widget__messages');
-const input = document.getElementById('chat-widget__input')
-const robotAnswers = ['Здравстуйте, мы работаем над вашим вопросом!', 'Кто тут?', 'Где ваша совесть?']
+const input = document.getElementById('chat-widget__input');
+const robotAnswers = ['Здравстуйте, мы работаем над вашим вопросом!', 'Кто тут?', 'Где ваша совесть?'];
 
 chatWidget.addEventListener('click', () => {
     chatWidget.classList.add('chat-widget_active');
